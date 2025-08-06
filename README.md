@@ -6,7 +6,7 @@
 
 **Day 2**. [Slides](https://docs.google.com/presentation/d/1EP7U3QJrYvaQopYFjOYybEQ6s95FiFQeh5SWq6vs6Jc/edit?usp=sharing). [Notebook](https://colab.research.google.com/github/franciscovillaescusa/ML_lectures/blob/main/Lecture2.ipynb). [Data](https://www.dropbox.com/sh/vghnick9hr1gksr/AADPV4FMPsWpurnSl9kXZjp1a?dl=0)
 
-**Day 3**.  
+**Day 3**.  [Slides, notes, and supplemental material](https://udlbook.github.io/udlbook/)
 
 **Day 4**. [Slides](https://docs.google.com/presentation/d/10GcXycXYh2H6W0_ZJeqeNm5U14tStrxoqPUFZGRDn-c/edit?usp=sharing). [Notebook](https://colab.research.google.com/drive/10aIz1dgQIy6fjYtq4-r4vbvEMclRs7xi?usp=sharing). 
 
