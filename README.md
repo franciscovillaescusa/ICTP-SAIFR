@@ -21,7 +21,24 @@
 - Get a [gmail](https://mail.google.com/) account if you dont have one 
 - Get a Gemini API key. Go [here](https://ai.google.dev/gemini-api/docs/api-key) and click on the link in the first line. Do not share this key with anyone or upload it to GitHub or any other public website.
 - Check that your key work. E.g. try it with the [CAMELS Agents](https://camels-agents.streamlit.app/). Select Gemini-2-flash and write CAMELS section and click select task. If some text is printed your key is active.
-- Install [Denario](https://github.com/AstroPilot-AI/Denario)
+- Install [Denario](https://github.com/AstroPilot-AI/Denario):
+  - git clone https://github.com/AstroPilot-AI/Denario.git
+  - cd Denario
+  - python3 -m venv Denario_env
+  - source Denario_env/bin/activate
+  - pip install -e .
+
+- Set the keys
+  - create a file called .env
+  - Inside .env set:
+  # Gemini API key
+  GOOGLE_API_KEY=Your_gemini_key_here
+  GOOGLE_APPLICATION=gemini.json
+
+  # OpenAI API key
+  OPENAI_API_KEY=Your_openay_key_here
+ 
+- To check that it works
 
 ## Resources
 - [Understanding deep learning book](https://udlbook.github.io/udlbook/)
