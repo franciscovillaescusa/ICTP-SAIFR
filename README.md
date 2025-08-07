@@ -31,12 +31,14 @@
 - Set the keys
   - create a file called .env
   - Inside .env set:
+  ```sh
   # Gemini API key
   GOOGLE_API_KEY=Your_gemini_key_here
   GOOGLE_APPLICATION=gemini.json
 
   # OpenAI API key
   OPENAI_API_KEY=Your_openay_key_here
+  ```
  
 - To check that it works
 
