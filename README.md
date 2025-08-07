@@ -40,7 +40,33 @@
   OPENAI_API_KEY=Your_openay_key_here
   ```
  
-- To check that it works
+- To check that it works, create a file called run.py and put:
+```python
+from denario import Denario, Journal
+
+folder = "Project1"
+
+# set AstroPilot and input text
+astro_pilot = Denario(project_dir=folder)
+astro_pilot.set_data_description(f"{folder}/input.md")
+
+# Generate a research idea from the input text
+astro_pilot.get_idea_fast(llm='gemini-2.5-flash')
+
+# Generate a research plan to carry out the idea
+astro_pilot.get_method_fast(llm="gemini-2.5-pro")
+
+# Follow the research plan, write and execute code, make plots, and summarize the results
+#astro_pilot.get_results()
+#astro_pilot.get_results(engineer_model='gemini-2.5-pro', researcher_model='gemini-2.5-pro')
+
+# Write a paper with [APS (Physical Review Journals)](https://journals.aps.org/) style
+#astro_pilot.get_paper(journal=Journal.AAS, llm='gemini-2.5-flash', add_citations=True)
+```
+
+- create a folder called Project1
+- Inside Project1 put a file called input.md
+- Inside input.md put your prompt
 
 ## Resources
 - [Understanding deep learning book](https://udlbook.github.io/udlbook/)
