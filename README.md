@@ -14,12 +14,12 @@
 
 ## Day 4 
 - Get a [gmail](https://mail.google.com/) account if you dont have one 
-- Get a Gemini API key. Go [here]([website](https://ai.google.dev/gemini-api/docs/api-key)) and click in the link in the first line. Do not share this key with anyone or upload it to GitHub or any other public website.
+- Get a Gemini API key. Go [here]([website](https://ai.google.dev/gemini-api/docs/api-key) and click on the link in the first line. Do not share this key with anyone or upload it to GitHub or any other public website.
 
 
 ## Preparation for Day 5
 - Get a [gmail](https://mail.google.com/) account if you dont have one 
-- Get a Gemini API key. Go [here]([website](https://ai.google.dev/gemini-api/docs/api-key)) and click in the link in the first line. Do not share this key with anyone or upload it to GitHub or any other public website.
+- Get a Gemini API key. Go [here]([website](https://ai.google.dev/gemini-api/docs/api-key) and click on the link in the first line. Do not share this key with anyone or upload it to GitHub or any other public website.
 - Check that your key work. E.g. try it with the [CAMELS Agents](https://camels-agents.streamlit.app/). Select Gemini-2-flash and write CAMELS section and click select task. If some text is printed your key is active.
 - Install [Denario](https://github.com/AstroPilot-AI/Denario)
 
