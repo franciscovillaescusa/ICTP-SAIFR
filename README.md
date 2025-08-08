@@ -85,7 +85,6 @@ If you want to run the get_results module with Gemini, you need a file called ge
 - Click Continue and then Done
 - Click on the three dots and Manage keys
 - Add key --> Create new key --> JSON --> Create
-- Download the JSON file and place it inside the CAMELS_Agent subfolder
 - Change the name of that file to gemini.json
 
 You may already have plots and results and want to write a paper with it. To achieve that, you should:
