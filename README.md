@@ -88,6 +88,27 @@ If you want to run the get_results module with Gemini, you need a file called ge
 - Download the JSON file and place it inside the CAMELS_Agent subfolder
 - Change the name of that file to gemini.json
 
+You may already have plots and results and want to write a paper with it. To achieve that, you should:
+- Create a project folder, e.g. Project2
+- Inside Project2, create a folder called plots. Put all your plots inside this folder.
+- Inside Project2, create a file called idea.md that should contain a short description of the idea behind the paper and the title of the paper, if you have one
+- Inside Project2, create a file called methods.md that should contain a description of the methods used and potentially the outline of the paper
+- Inside Project2, create a file called results.md that should contain a description of the results obtained
+
+After this, you can write the paper with this:
+
+```python
+from denario import Denario, Journal
+
+folder = "Project2"
+
+# set AstroPilot and input text
+astro_pilot = Denario(project_dir=folder)
+
+# Write a paper with [APS (Physical Review Journals)](https://journals.aps.org/) style
+astro_pilot.get_paper(journal=Journal.AAS, llm='gemini-2.5-flash', add_citations=False)
+```
+
 ## Resources
 - [Understanding deep learning book](https://udlbook.github.io/udlbook/)
 
