@@ -68,6 +68,21 @@ astro_pilot.get_method_fast(llm="gemini-2.5-pro")
 - Inside Project1 put a file called input.md
 - Inside input.md put your prompt
 
+If you want to run the get_results module with Gemini, you need a file called gemini.json. To get it, follow these instructions:
+- Log into google cloud: https://console.cloud.google.com/
+- Create a project
+- Go to IAM & Admin
+- Go to Service Accounts
+- Create a Service Account
+- Choose a name
+- Create and Continue
+- Grant the "Vertex AI User" role
+- Click Continue and then Done
+- Click on the three dots and Manage keys
+- Add key --> Create new key --> JSON --> Create
+- Download the JSON file and place it inside the CAMELS_Agent subfolder
+- Change the name of that file to gemini.json
+
 ## Resources
 - [Understanding deep learning book](https://udlbook.github.io/udlbook/)
 
