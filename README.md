@@ -64,12 +64,17 @@ astro_pilot.get_method_fast(llm="gemini-2.5-pro")
 #astro_pilot.get_paper(journal=Journal.AAS, llm='gemini-2.5-flash', add_citations=True)
 ```
 
-- create a folder called Project1
-- Inside Project1 put a file called input.md
+- Create a folder called Project1
+- Inside Project1, put a file called input.md
 - Inside input.md put your prompt
 
+If you want to run the get_results module with GPT alone, do this:
+```python
+astro_pilot.get_results(engineer_model='o3-mini', researcher_model='o3-mini')
+```
+
 If you want to run the get_results module with Gemini, you need a file called gemini.json. To get it, follow these instructions:
-- Log into google cloud: https://console.cloud.google.com/
+- Log into Google Cloud: https://console.cloud.google.com/
 - Create a project
 - Go to IAM & Admin
 - Go to Service Accounts
