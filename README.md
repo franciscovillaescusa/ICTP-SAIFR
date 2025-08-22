@@ -108,6 +108,16 @@ astro_pilot = Denario(project_dir=folder)
 astro_pilot.get_paper(journal=Journal.AAS, llm='gemini-2.5-flash', add_citations=False)
 ```
 
+## Generated papers
+
+The papers generated live during the 5th lecture can be found in https://github.com/franciscovillaescusa/ICTP-SAIFR/tree/main/Generated_papers.
+
+- X-ray paper assestment from Isabel Pederneiras:
+
+``
+The paper used data from the recently published CODEX cluster catalog (Pederneiras et al. 2025) to compare the mass–X-ray luminosity relations of galaxy clusters observed by ROSAT (DR3, Voges et al. 1999) and eROSITA (DR1, Merloni et al. 2024), focusing on the systematic differences between the two surveys. The idea was relevant, and the abstract, introduction, and plots were carefully prepared. Nonetheless, the execution suffered from a mistake in unit conversion that produced non-physical luminosity values. In addition, the fitting method, although technically correct, was overly simplistic and had already been employed in earlier studies (e.g. Chen et al. 2007; Eckmiller et al. 2011). The text also suffered from unnecessary repetitions, an excessive subdivision into sections, and awkward figure references, which reduced its clarity. Overall, while the motivation and some aspects of the presentation were strong, the methodological issues and lack of originality in the analysis would prevent the work from reaching current journal standards.
+``
+
 ## Resources
 - [Understanding deep learning book](https://udlbook.github.io/udlbook/)
 
