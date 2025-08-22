@@ -8,9 +8,9 @@
 
 **Day 3**. Transformers [Slides, notes, and supplemental material](https://udlbook.github.io/udlbook/)
 
-**Day 4**. AI Agents [Slides](https://docs.google.com/presentation/d/10GcXycXYh2H6W0_ZJeqeNm5U14tStrxoqPUFZGRDn-c/edit?usp=sharing). [Notebook](https://colab.research.google.com/drive/10aIz1dgQIy6fjYtq4-r4vbvEMclRs7xi?usp=sharing). 
+**Day 4**. AI Agents [Slides](https://docs.google.com/presentation/d/10GcXycXYh2H6W0_ZJeqeNm5U14tStrxoqPUFZGRDn-c/edit?usp=sharing). [Notebook](https://colab.research.google.com/drive/10aIz1dgQIy6fjYtq4-r4vbvEMclRs7xi?usp=sharing). [Instructions](https://github.com/franciscovillaescusa/ICTP-SAIFR/blob/main/Day4/README.md)
 
-**Day 5**. Complex AI multi-agents [Slides](https://docs.google.com/presentation/d/1g08FbE1jaElYDip3IHoZ3Zq0HPtl4OiI1VToMMX1oIo/edit?usp=sharing). [Generated papers](https://github.com/franciscovillaescusa/ICTP-SAIFR/tree/main/Generated_papers)
+**Day 5**. Complex AI multi-agents [Slides](https://docs.google.com/presentation/d/1g08FbE1jaElYDip3IHoZ3Zq0HPtl4OiI1VToMMX1oIo/edit?usp=sharing). [Generated papers](https://github.com/franciscovillaescusa/ICTP-SAIFR/tree/main/Generated_papers). [Instructions](https://github.com/franciscovillaescusa/ICTP-SAIFR/blob/main/Day5/README.md)
 
 
 ## Resources
