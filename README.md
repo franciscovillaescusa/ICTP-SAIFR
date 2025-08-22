@@ -10,7 +10,7 @@
 
 **Day 4**. [Slides](https://docs.google.com/presentation/d/10GcXycXYh2H6W0_ZJeqeNm5U14tStrxoqPUFZGRDn-c/edit?usp=sharing). [Notebook](https://colab.research.google.com/drive/10aIz1dgQIy6fjYtq4-r4vbvEMclRs7xi?usp=sharing). 
 
-**Day 5**. [Slides](https://docs.google.com/presentation/d/1g08FbE1jaElYDip3IHoZ3Zq0HPtl4OiI1VToMMX1oIo/edit?usp=sharing). 
+**Day 5**. [Slides](https://docs.google.com/presentation/d/1g08FbE1jaElYDip3IHoZ3Zq0HPtl4OiI1VToMMX1oIo/edit?usp=sharing). [Generated papers](https://github.com/franciscovillaescusa/ICTP-SAIFR/tree/main/Generated_papers)
 
 ## Day 4 
 - Get a [gmail](https://mail.google.com/) account if you dont have one 
@@ -108,9 +108,7 @@ astro_pilot = Denario(project_dir=folder)
 astro_pilot.get_paper(journal=Journal.AAS, llm='gemini-2.5-flash', add_citations=False)
 ```
 
-## Generated papers
-
-The papers generated live during the 5th lecture can be found in https://github.com/franciscovillaescusa/ICTP-SAIFR/tree/main/Generated_papers.
+## Generated papers evaluation
 
 - X-ray paper assestment from Isabel Pederneiras:
 
